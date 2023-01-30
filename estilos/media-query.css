@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+
+    html {
+        background-image: linear-gradient(45deg, #231C1C, #906150);
+    }
+
+    body {
+        background-image: url('../imagens/ballebot.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+
+    div#mestre {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        margin-left: -50px;
+        margin-right: -50px;
+        background-image: linear-gradient(45deg, hsla(0, 11%, 12%, 0.90), hsla(16, 29%, 44%, 0.90));
+        z-index: 1;
+        
+    }
+
+    header {
+        position: relative;
+        display: block;
+        z-index: 1;
+    }
+
+    nav > ul {
+        display: block;
+        text-align: center;
+        /* background-color: red; */
+    }
+
+    nav > ul > a > li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        background-color: #CC8373;
+        border-radius: 0;
+    }
+
+    nav > ul > a > li:hover {
+        color: #CC8373;
+        background-color: #EED8C5;
+        outline: none;
+    }
+
+    main {
+        position: relative;
+        z-index: 1;
+    }
+    
+    section#area-principal {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section#area-secundaria ol {
+        text-align: left;
+        line-height: normal;
+        list-style-position: inside;
+    }
+    
+    section#area-secundaria li {
+        padding-bottom: 16px;
+    }
+
+    section#area-principal, section#area-secundaria {
+        
+    }
+
+    div.imagem {
+        display: none;
+    }
+    
+    footer {
+        position: relative;
+        z-index: 1;
+    }
+}

@@ -6,14 +6,16 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-
-html, body {
-    width: 100vw;
+html {
     height: 100vh;
 }
 
-body {
+html, body {
     background-image: linear-gradient(45deg, #231C1C, #906150);
+    background-repeat: no-repeat;
+}
+
+body {
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -104,10 +106,6 @@ section#area-secundaria ol {
 }
 
 footer {
-    height: 142px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 1200px;
     min-width: 320px;
     margin: auto;
@@ -116,4 +114,7 @@ footer {
 
 footer > img {
     display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
 }

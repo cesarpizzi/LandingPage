@@ -3,7 +3,7 @@
 @media screen and (max-width: 600px) {
 
     html {
-        height: auto;
+        
     }
     body {
         background-image: url('../imagens/ballebot-mobile.png');
